@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Prueba de Strategy Pattern
+</body>
+<script src="thundercat.js"></script>
+<script>
+    //clases de thundercats
+var t= new Thundercat();
+var leano=new Leano();
+var cheetara= new Cheetara();
+
+// comportamiento correr
+var alas= new CorrerConAlas();
+var rapido= new CorrerRapido();
+
+//comportamiento ataque
+var mortal= new AtaqueMortal();
+var fuego=new AtaqueFuego();
+
+</script>
+</html>
